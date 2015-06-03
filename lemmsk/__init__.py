@@ -23,7 +23,7 @@ def build_trie(file):
 
 
 _trie = marisa_trie.BytesTrie()
-_trie_path = path.abspath('{}/../data/lemmatization-sk.marisa'.format(here))
+_trie_path = path.abspath('{}/data/lemmatization-sk.marisa'.format(here))
 try:
     _trie.load(_trie_path)
 except Exception, e:
