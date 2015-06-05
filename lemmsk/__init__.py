@@ -35,7 +35,7 @@ except Exception, e:
 def lemmatize(word):
     try:
         return _trie[unicode(word)][0]
-    except Exception, e:
+    except Exception as e:
         return word
 
 
