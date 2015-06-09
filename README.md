@@ -13,8 +13,8 @@ You can install `lemm-sk` from PyPI by running
 Here is a very simple example of usage of `lemmsk` command (which will be
 instaled along with the module):
 
-    $ echo "s čerešňovou omáčkou" | lemmsk lemmatize
-    s čerešňový omáčka
+    $ echo "palacinky s čerešňovou omáčkou" | lemmsk lemmatize
+    palacinka s čerešňový omáčka
 
 ## Data source
 
