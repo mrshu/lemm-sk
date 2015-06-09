@@ -1,4 +1,5 @@
 # lemm-sk
+
 An off the shelf lemmer (a module capable of lemmatization) for Slovak language
 
 ## Installation
@@ -17,7 +18,7 @@ instaled along with the module):
 
 ## Data source
 
-This project uses the Slovak Lemmatization List from
-http://www.lexiconista.com/datasets/lemmatization/
-which is distributed under the [Open Database
+This project uses the [Slovak Lemmatization
+List](http://www.lexiconista.com/datasets/lemmatization/) which is distributed
+under the [Open Database
 License](http://opendatacommons.org/licenses/odbl/summary/)
