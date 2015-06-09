@@ -15,3 +15,9 @@ instaled along with the module):
     $ echo "s čerešňovou omáčkou" | lemmsk lemmatize
     s čerešňový omáčka
 
+## Data source
+
+This project uses the Slovak Lemmatization List from
+http://www.lexiconista.com/datasets/lemmatization/
+which is distributed under the [Open Database
+License](http://opendatacommons.org/licenses/odbl/summary/)
