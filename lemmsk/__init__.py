@@ -32,6 +32,10 @@ except Exception, e:
                   "installed?".format(_trie_path))
 
 
+def is_lemma(word):
+    return word in _trie
+
+
 def lemmatize(word):
     try:
         return _trie[unicode(word)][0]
