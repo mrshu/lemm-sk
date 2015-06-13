@@ -3,7 +3,7 @@ from os import path
 
 setup(
     name='lemmsk',
-    version='0.0.1',
+    version='0.0.2',
 
     description='An off the shelf lemmer (a module capable of'
                 'lemmatization) for Slovak language ',
