@@ -12,6 +12,7 @@ class TestSimpleLemmatization(unittest.TestCase):
 
         self.assertTrue(lemmsk.is_lemma('kurací'))
         self.assertFalse(lemmsk.is_lemma('kuraciemu'))
+        self.assertFalse(lemmsk.is_lemma('kuracieho'))
 
 
 if __name__ == '__main__':
