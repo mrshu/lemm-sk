@@ -33,7 +33,7 @@ except Exception, e:
 
 
 def is_lemma(word):
-    return _trie.has_keys_with_prefix(unicode(word))
+    return unicode(word) in _trie.keys(unicode(word))
 
 
 def lemmatize(word):

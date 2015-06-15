@@ -20,6 +20,12 @@ Once installed you can use this library in the following way
 
     import lemmsk
 
+    print(lemmsk.lemmatize('palacinky'))
+    # palacinka
+
+    print(lemmsk.is_lemma('palacinka'))
+    # True
+
 ## Data source
 
 This project uses the [Slovak Lemmatization
