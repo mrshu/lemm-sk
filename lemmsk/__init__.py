@@ -23,6 +23,7 @@ def build_trie(file):
 
 
 _trie = marisa_trie.BytesTrie()
+_lemmas = [x[1] for x in _trie.items()]
 _trie_path = path.abspath('{}/data/lemmatization-sk.marisa'.format(here))
 try:
     _trie.load(_trie_path)
@@ -33,7 +34,7 @@ except Exception, e:
 
 
 def is_lemma(word):
-    return unicode(word) in _trie.keys(unicode(word))
+    return word in _lemmas
 
 
 def lemmatize(word):
