@@ -23,7 +23,6 @@ def build_trie(file):
 
 
 _trie = marisa_trie.BytesTrie()
-_lemmas = [x[1] for x in _trie.items()]
 _trie_path = path.abspath('{}/data/lemmatization-sk.marisa'.format(here))
 try:
     _trie.load(_trie_path)
@@ -31,6 +30,7 @@ except Exception, e:
     import warnings
     warnings.warn("Trie could not be loaded from '{}'. Perhaps it is not"
                   "installed?".format(_trie_path))
+_lemmas = set([x[1] for x in _trie.items()])
 
 
 def is_lemma(word):
