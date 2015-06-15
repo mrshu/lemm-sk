@@ -1,0 +1,10 @@
+
+language: python
+python:
+      - "2.7"
+install:
+      - pip install flake8 --use-mirrors
+      - pip install -e .
+script:
+      - flake8 --ignore=E731,E226 .
+      - python test_lemmsk.py

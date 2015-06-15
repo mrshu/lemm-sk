@@ -40,7 +40,7 @@ def is_lemma(word):
 def lemmatize(word):
     try:
         return _trie[unicode(word)][0]
-    except Exception as e:
+    except Exception:
         return word
 
 
