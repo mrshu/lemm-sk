@@ -16,6 +16,10 @@ instaled along with the module):
     $ echo "palacinky s čerešňovou omáčkou" | lemmsk lemmatize
     palacinka s čerešňový omáčka
 
+Once installed you can use this library in the following way
+
+    import lemmsk
+
 ## Data source
 
 This project uses the [Slovak Lemmatization
